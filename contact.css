@@ -1,0 +1,54 @@
+.contact {
+    padding: 100px 20px;
+}
+
+textarea, input {
+    width: 100%;
+    padding: 14px;
+    margin: 10px auto;
+    border: 1px solid #f0e9f0;
+    padding-left: 18px;
+    font-size: 13px;
+    background-color: transparent;
+    border-radius: 5px;
+    color: #495057;
+}
+
+:where(textarea, input):focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+.half-row {
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.contact_firstname {
+    padding-right: 15px;
+}
+
+.contact_email {
+    padding-left: 15px;
+}
+
+
+.button {
+    margin-top: 30px;
+    display: inline-block;
+    padding: 0 38px;
+    background: linear-gradient(to right, #1345e6 0%, #ed239f 51%, #1345e6 100%);
+    font-size: 14px;
+    line-height: 40px;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.button:hover {
+    background: linear-gradient(to right, #1345e6 0%, #ed239f 0%, #1345e6 100%);
+    cursor: pointer;
+}
